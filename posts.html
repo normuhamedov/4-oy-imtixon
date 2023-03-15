@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+    <section class="header">
+        <header class="container">
+            <img src="./img/logo.png" alt="Logo" width="140" height="29" />
+            <nav>
+              <div class="nav align-items-center container">
+                <ul class="nav-lists align-items-center d-flex justify-content-center ms-auto gap-3 text-light">
+                  <li class="/home"><a href="./index.html">Home</a></li>
+                  <li class="/products"><a href="./startup.html">Blog</a></li>
+                  <li class="/about"><a href="./posts.html">About Us</a></li>
+                  <li id="signup"><a href="./registr.html">Register</a></li>
+                  <a id="login" class="btn header_btn text-dark" href="./login.html">Login</a>
+                </ul>
+              </div>
+            </nav>
+            <div id="hamburger-icon"onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                  <li class="/home"><a href="./index.html"><a href="">Home</a></a></li>
+                  <li class="/products"><a href="./startup.html"><a href="">Blog</a></a></li>
+                  <li class="/about"><a href="./posts.html">About us</a></li>
+                  <li id="signup"><a href="./registr.html">Register</a></li>
+                  <a id="login" href="./login.html" class="btn header_btn">Login</a>
+                   
+    
+                  <a class="btn header_btn position-absolute rounded-top-4 bottom-0" href="./startup.html">Next page > </a>
+                  
+                </ul>
+              </div>
+          </header>
+        </section>
+    <section class="posts">
+        <div class="container">
+            <div class="post_hero d-flex flex-row justify-content-between">
+                <div class="post_left">
+                    <h6 class="post_heading">Featured Post</h6>
+                    <h3 class="post_text" style="margin-bottom: 16px;">Step-by-step guide to choosing great font pairs</h3>
+                    <p style=" margin-bottom: 27px;">By <span  class="john_text">John Doe</span>   l   Aug 23, 2021 </p>
+                    <p style="margin-bottom: 74px;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                    <button style="margin-bottom: 93px;" class="btn hero_btn">Read More ></button>
+                </div>
+                <div class="post_right ">
+                    <img src="./img/post_hero.png" alt="bratan-working">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <form action="#" class="form">
+                <input type="text" class="input-group w-100 p-1 mt-5 mb-5 startup_search">
+            </form>
+            <h1 style="font-size: 48px;">All posts</h1>
+            <div class="row">
+
+            </div>
+        </div>
+        <!-- <section>
+            <div class="container">
+                <input class="input-group startup_search" type="text" placeholder="Searching ...">
+                <div class="d-flex flex-column gap-4 s_wrap">
+                    <h1 style="font-size: 48px;">All posts</h1>
+                    <hr>
+                    <div class="d-flex flex-column flex-md-row gap-4 div_search col-12 ">
+                        <div>
+                            <img src="./img/popular.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="search_head">Business</h6>
+                            <h3 style="margin-bottom: 64px;">Top 6 free website mockup tools 2022</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row gap-4 div_search">
+                        <div>
+                            <img src="./img/popular.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="search_head">Business</h6>
+                            <h3 style="margin-bottom: 64px;">Top 6 free website mockup tools 2022</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row gap-4 div_search">
+                        <div>
+                            <img src="./img/popular.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="search_head">Business</h6>
+                            <h3 style="margin-bottom: 64px;">Top 6 free website mockup tools 2022</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row gap-4 div_search">
+                        <div>
+                            <img src="./img/popular.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="search_head">Business</h6>
+                            <h3 style="margin-bottom: 64px;">Top 6 free website mockup tools 2022</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row gap-4 div_search">
+                        <div>
+                            <img src="./img/popular.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="search_head">Business</h6>
+                            <h3 style="margin-bottom: 64px;">Top 6 free website mockup tools 2022</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- <div class="container">
+            <input class="input-group startup_search" type="text" placeholder="Searching ...">
+            <div class="d-flex flex-column gap-4">
+                <h1 style="font-size: 48px;">All posts</h1>
+                <hr>
+                <div class="d-flex flex-row gap-4">
+                    <div>
+                        <img class="card-img" src="./img/all_img_1.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h6 class="search_head">Business</h6>
+                        <h3 class="card-text" style="margin-bottom: 64px;">Top 6 free website mockup tools 2022</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row gap-4">
+                    <div>
+                        <img class="card-img" src="./img/all_img_1.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h6 class="search_head">Business</h6>
+                        <h3 style="margin-bottom: 64px;">Top 6 free website mockup tools 2022</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row gap-4">
+                    <div>
+                        <img class="card-img" src="./img/all_img_1.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h6 class="search_head">Business</h6>
+                        <h3 style="margin-bottom: 64px;">Top 6 free website mockup tools 2022</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row gap-4">
+                    <div>
+                        <img class="card-img" src="./img/all_img_1.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h6 class="search_head">Business</h6>
+                        <h3 style="margin-bottom: 64px;">Top 6 free website mockup tools 2022</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <section class="footer_sec">
+        <div class="container">
+            <div class="footer d-flex flex-sm-row flex-column justify-content-between align-items-center container">
+                <div class="footer_left text-white">
+                    <p>Finstreet 118 2561 Fintown</p>
+                    <p>Hello@finsweet.com  020 7993 2905</p>
+                </div>
+                <div class="footer_right d-flex gap-4">
+                    <img src="./img/F.png" alt="footer_icons">
+                    <img src="./img/T.png" alt="footer_icons">
+                    <img src="./img/I.png" alt="footer_icons">
+                    <img src="./img/L.png" alt="footer_icons">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    
+    <script src="./all.js"></script>
+</body>
+</html>

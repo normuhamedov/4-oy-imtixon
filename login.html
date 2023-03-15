@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="header">
+        <header class="container">
+            <img src="./img/logo.png" alt="Logo" width="140" height="29" />
+            <nav>
+              <div class="nav align-items-center container">
+                <ul class="nav-lists align-items-center d-flex justify-content-center ms-auto gap-3 text-light">
+                  <li class="/home"><a href="./index.html">Home</a></li>
+                  <li class="/products"><a href="./startup.html">Blog</a></li>
+                  <li class="/about"><a href="./posts.html">About Us</a></li>
+                  <li id="signup"><a href="./registr.html">Register</a></li>
+                  <a href="./login.html" id="login" class="btn header_btn">Login</a>
+                </ul>
+              </div>
+            </nav>
+            <div id="hamburger-icon"onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                  <li class="/home"><a href="./index.html"><a href="">Home</a></a></li>
+                  <li class="/products"><a href="./startup.html"><a href="">Blog</a></a></li>
+                  <li class="/about"><a href="./posts.html">About us</a></li>
+                  <li id="signup"><a href="./registr.html">Register</a></li>
+                  <a href="./login.html" id="login" class="btn header_btn">Login</a>
+                </ul>
+              </div>
+          </header>
+    </section>
+    <section>
+        <div class="container">
+            <div class="headerr">
+                <h2>Login</h2>
+            </div>
+            <form
+                id="form"
+                class="form container">
+                <div class="form-control">
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        id="email"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <input
+                        type="password"
+                        placeholder="Password"
+                        id="password" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button class="btn">Register</button>
+                <a class="a " href="./second.html">Next &#128515; &#9786;</a>
+            </form>
+        </div>
+    </section>
+
+    <script src="./registr.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

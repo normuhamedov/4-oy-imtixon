@@ -1,0 +1,309 @@
+
+*
+pp00 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .header{
+    background: #232526;
+  }
+  .nav{
+    height: 80px;
+  }
+  header a {
+    text-decoration: none;
+  }
+  
+  header {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #brand a {  
+    color: #09c372;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  .nav-lists {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .nav-lists a {
+    color: white;
+  }
+  
+  .nav-lists li {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .nav-lists li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  
+  
+ 
+  
+  
+  #hamburger-icon {
+    margin: auto 0;
+    display: none;
+    
+    
+  }
+
+  
+  #hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.5s;
+  }
+  
+  .open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .open .bar2 {
+    opacity: 0;
+  }
+  
+  .open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+  }
+  
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    
+    height: calc(100vh);
+    width: calc(50%);
+    
+    background: linear-gradient(to top, #FFD050, #fafadc);
+    
+    
+  }
+ 
+  
+  .mobile-menu li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.mobile-menu a {
+  color: #232526;
+}
+.petop {
+  
+  margin-top: 180px;
+}
+  @media only screen and (max-width: 660px) {
+    header nav {
+      display: none;
+    }
+  
+    #hamburger-icon {
+      display: block;
+     
+    }
+  }
+
+
+.hero_bg {
+    height: 720px;
+    background-image: url(./img/brat.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero_wrapper {
+    padding-top: 128px;
+    
+    max-width: 804px;
+}
+.hero_btn {
+    background: #FFD050;
+    padding: 16px 48px;
+}
+.header_btn {
+    background: white;
+}
+.popular {
+    margin-top: 94px;
+}
+.row_text {
+    margin-bottom: 64px;
+    font-size: 36px;
+}
+.john_text {
+    color: #592EA9;
+}
+.choose{
+    margin-top: 69px;
+    
+}
+.choose_head{
+    margin-bottom: 71px;
+    text-align: center;
+}
+.card_choose {
+    align-items: start;
+    list-style-type: none;
+    border: wheat solid 2px;
+    padding: 32px;
+}
+
+.card_choose:hover {
+    background-color: #FFD050;
+    
+}
+
+.choose_img{
+    margin-bottom: 28px;
+}
+.footer_sec{
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #232536; 
+}
+
+@media screen and (max-width: 768px) {
+  .footer_sec {
+    
+  }
+  .footer {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer_left, .footer_right {
+    margin-bottom: 20px;
+    
+  }
+  
+  .footer_right img {
+    margin: 0 10px;
+  }
+}
+.startup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.search_head{
+    font-size: 16px;
+    font-family: monospace;
+    margin-top: 0; 
+    margin-bottom: 20px; 
+    color: #592EA9;
+}
+
+.startup_search{
+    height: 76px;
+    margin-bottom: 57px;
+    margin-top: 57px;
+    padding: 20px;
+    width: 100%;
+}
+.startup_search:hover{
+    background-color: #F4F0F8;
+    border: #FFD050 solid 2px;
+}
+
+
+.posts{
+    background-color: #F4F0F8;
+}
+.post_left{
+    width: 500px;
+}
+.post_heading{
+    color: #232536;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: monospace;
+}
+.post_text{
+    color: #232536;
+    margin-bottom: 15px;
+    font-size: 36px;
+    
+}
+
+.about_hero{
+    background-image: url(./img/abaut_bg.png);
+    background-position: center;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    height: 582px;
+    margin-bottom: 63px;
+}
+.all_wraps{
+    max-width: 837px;
+    margin-bottom: 128px;
+}
+.all_h5{
+    color: #592EA9;
+    font-size: 28px;
+}
+.all_h2{
+    margin-top: 24px;
+    font-size: 48px;
+    margin-bottom: 34px;
+}
+.all_p{
+    margin-top: 62px;
+    margin-bottom: 24px;
+    color: #6D6E76;
+}

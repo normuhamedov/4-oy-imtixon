@@ -1,0 +1,158 @@
+.popular_p{
+    font-size: 14px; margin-bottom: 16px;
+}
+@media only screen and (max-width: 993px) {
+    .popular_p{
+       font-size: 12px;
+    }
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .popular {
+    padding: 50px 0;
+  }
+  
+  .card {
+    width: calc(33.33% - 30px);
+    margin: 0 15px 30px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+  }
+  
+  .popular_p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  /* Tablet */
+  @media only screen and (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+      margin: 0 10px 20px;
+    }
+    .div_search {
+      align-items: center;
+      padding: 0 auto;
+      max-width: 418px;
+      border: 3px solid #FFD050;
+    }
+    .s_wrap {
+      padding: 0 auto;
+      margin: 0 auto; 
+      align-items: center;
+    }
+
+    .img_wrap {
+      height: auto;
+      width: auto;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 480px) {
+    .card {
+      width: 100%;
+      margin: 0 0 20px;
+    }
+    
+    .popular_p {
+      font-size: 12px;
+    }
+    
+    h3 {
+      font-size: 20px;
+    }
+    
+    p {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+  .pop_img{
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .posts {
+    background-image: url(./img/post_hero.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .post_hero {
+    
+  }
+  .post_left {
+    
+  }
+  .post_heading {
+    
+  }
+  .post_right img {
+    display: none;
+  }
+  .post_text{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.posts{
+  text-align: center;
+  height: 100%;
+  background-position: center;
+  background-size: 200%;
+
+}
+.post_hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.about_hero{
+  background-position: right;
+}
+.all_wraps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.all_h2{
+  font-size: 30px;
+}
+}
+
+
+.pop_img {
+  width: 412px;
+  height: 312px;
+}
+
+
+@media only screen and (max-width: 300px) {
+.pop_title{
+ font-size: 24px;
+}
+.pop_text {
+
+}
+
+}
